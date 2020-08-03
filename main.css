@@ -18,7 +18,7 @@ html {
 body {
   min-width: 100%;
   min-height: 100%;
-  background: url(images/freeimg_98381253freejpg850.jpg) fixed no-repeat;
+  background: url(./images/freeimg_98381253freejpg850.jpg) fixed no-repeat;
   background-size: cover;
 }
 img {

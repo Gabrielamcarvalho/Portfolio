@@ -373,7 +373,7 @@ button a:hover {
 
 @keyframes skills-sass {
   to {
-    width: 40%;
+    width: 60%;
   }
 }
 .skills-bootstrap:hover {
@@ -393,7 +393,7 @@ button a:hover {
 
 @keyframes skills-js {
   to {
-    width: 50%;
+    width: 60%;
   }
 }
 .skills-react:hover {
@@ -423,7 +423,7 @@ button a:hover {
 
 @keyframes skills-java{
   to {
-    width: 90%;
+    width: 60%;
   }
 }
 
@@ -433,7 +433,7 @@ button a:hover {
 }
 @keyframes skills-mysql{
   to {
-    width: 90%;
+    width: 80%;
   }
 }
 .skills-git:hover {
@@ -442,7 +442,7 @@ button a:hover {
 }
 @keyframes skills-git {
   to {
-    width: 80%;
+    width: 60%;
   }
 }
 

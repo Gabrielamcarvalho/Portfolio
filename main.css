@@ -18,7 +18,7 @@ html {
 body {
   min-width: 100%;
   min-height: 100%;
-  background: url(./images/freeimg_98381253freejpg850.jpg) fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.678)), url(./images/background3.jpg) fixed no-repeat;
   background-size: cover;
 }
 img {
@@ -67,7 +67,7 @@ p {
 header {
   width: 100%;
   height: 100vh;
-  border-bottom: 10px groove #fbf54b;
+  /* border-bottom: 10px groove #fbf54b; */
 }
 /* navigation */
 .top-nav {
@@ -289,8 +289,8 @@ button a:hover {
   100% {
     -webkit-transform: translateZ(50px);
     transform: translateZ(50px);
-    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.548);
+    -webkit-box-shadow: 0 0 20px 0px rgba(255, 254, 254, 0.35);
+    box-shadow: 0 0 20px 0px rgba(243, 236, 236, 0.548);
   }
 }
 

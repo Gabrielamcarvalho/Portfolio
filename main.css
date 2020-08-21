@@ -491,8 +491,9 @@ button a:hover {
 }
 .portfolio-img img {
   margin-top: 1em;
-  border: 2px solid white;
-  border-top-left-radius: 30%;
+  border: 2px solid #fbf54b;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 /* ------end of portfolio------ */
 /* ------start of contact----- */

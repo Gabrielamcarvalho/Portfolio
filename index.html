@@ -1,327 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gabriela Portfolio</title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="main.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-</head>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
 
-<body>
-  <!--header-->
-  <header id="header">
-    <nav class="top-nav">
-      <ul class="nav-list">
-        <li>
-          <a href="index.html" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li>
-          <a href="#services" class="nav-link">Services</a>
-        </li>
-        <li>
-          <a href="#portfolio" class="nav-link">Portfolio</a>
-        </li>
+    <!-- animate.style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <li>
-          <a href="./resume.html" class="nav-link">Resume</a>
-        </li>
-        <li>
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="banner">
-      <div class="landing-text">
-        <h1>Hello, I am <span>Gabriela M. Carvalho</span></h1>
-        <h1>I am a Frond-End Developer</h1>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- Social media icons -->
+      <div class="social-media">
+        <ul class="social-media__icon">
+          <a
+            href="https://www.facebook.com/gabrielamelnikcarvalho"
+            target="_blank"
+            class="icon-link"
+          >
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://github.com/Gabrielamcarvalho"
+            target="_blank"
+            class="icon-link"
+          >
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gabriela-carvalho-916313174/"
+            target="_blank"
+            class="icon-link"
+          >
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:gabrielamcarvalho@gmail.com" target="_blank">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
+        </ul>
       </div>
-      <button type="button" class="more-work"><a href="#about"> View My work <i class="fa fa-arrow-left"
-            aria-hidden="true"></i></a></button>
-    </div>
-    <div class="background-animation">
-      <div class="animation1"></div>
-      <div class="animation1"></div>
+      <!-- banner -->
+      <div class="banner">
+        <div class="banner__title">
+          <h1 class="animate__animated animate__bounce">
+            Hello, I am <span class="special-text">Gabriela M. Carvalho</span>
+          </h1>
+          <h2 class="animate__animated animate__backInRight">
+            I <span class="special-text">love</span> Web Development
+          </h2>
 
-
-    </div>
-
-    <!--navegation-->
-
-    <!--end of navegation-->
-  </header>
-
-  <!--end of header-->
-  <!--decoration-->
-
-
-  <!--about section-->
-  <section class="about" id="about">
-
-    <div class="container container-about">
-      <div class="profile-img">
-        <img src="./images/pic.jpg" alt="" />
-      </div>
-      <div class="about-details">
-        <div class="about-heading">
-          <h1 class="heading">About</h1>
-          <h6>Myself</h6>
+          <a class="btn" href="#about">View More</a>
+          <a class="btn" href="#">Download Resume</a>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-          accusamus facere nostrum maiores amet corporis at optio omnis
-          quisquam eveniet quod inventore ad debitis culpa, obcaecati
-          assumenda dolore repellendus fuga praesentium dolorem! Vel
-          perspiciatis iusto architecto cupiditate vero. Nulla ea temporibus
-          id. Nobis velit alias voluptatibus est, ea dolorum officiis.
-        </p>
-        <div class="social-media">
-          <ul class="social-media-list">
-            <a href="https://www.facebook.com/gabrielamelnikcarvalho" target="_blank" class="icon-link">
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </a>
-            <a href="https://github.com/Gabrielamcarvalho" target="_blank" class="icon-link">
-              <i class="fa fa-github-square" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/gabriela-carvalho-916313174/" target="_blank" class="icon-link">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </a>
-          </ul>
+        <div class="banner__img-container">
+          <img src="./images/ReadingDoodle.svg" alt="" />
         </div>
       </div>
+    </header>
+    <section id="about" class="about">
+      <h2>About</h2>
+      <div class="underline"></div>
+      <p>
+        WHO? Gabriela M. Carvalho <br />
+        WHY? I wasn't happy with my profession and started to study computing, I
+        felt in love with it <br />
+        WHEN? Since I got my first computer at 12 I liked it, I used to spent
+        hours in power paint and playing mario <br />
+        HOW? I am doing a higher diploma in computing (Level 8) and have been
+        studying and doing online courses (see more in my resume) <br />
+        WHERE? Dublin - IE
+      </p>
+    </section>
 
-    </div>
-  </section>
-  <!--end of about section-->
-  <!--services section-->
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-heading ">
-        <h1 class="heading">Services</h1>
-        <h6>What I can do for you</h6>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="underline"></div>
+      <div class="projects-container">
+        <article class="projects-item">
+          <img src="./images/QuoteGenerator.jpg" alt="Quote Generator image" />
+          <div class="img-text">
+            <h4>Quote Generator</h4>
+            <div class="underline"></div>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="carbon:api-1"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/QuoteGenerator/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/QuoteGenerator"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="projects-item">
+          <img src="./images/infiniteDogs.jpg" alt="Infinite Dogs image" />
+          <div class="img-text">
+            <h4>Infinite Dogs</h4>
+            <div class="underline"></div>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="carbon:api-1"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/InfiniteDogs/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/InfiniteDogs"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="projects-item">
+          <img src="./images/weatherbysimpsons.png" alt="Weather app image" />
+          <div class="img-text">
+            <h4>Weather Forecast with Simpsons GIFS</h4>
+            <div class="underline"></div>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="carbon:api-1"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="file-icons:eslint"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/WheatherBySimpsons/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/WheatherBySimpsons"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="projects-item">
+          <img src="./images/pictureinpicture.png" alt="Picture in Picture image" />
+          <div class="img-text">
+            <h4>Picture in Picture</h4>
+            <div class="underline"></div>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/PictureInPicture/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/PictureInPicture"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="projects-item">
+          <img src="./images/memory-game.png" alt="Cats memory game image" />
+          <div class="img-text">
+            <h4>Cats - Memory Game</h4>
+            <div class="underline"></div>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/Cats-MemoryGame/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/Cats-MemoryGame"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="projects-item">
+          <img src="./images/dunderMifflin.jpg" alt="Dunder Mifflin Website image" />
+          <div class="img-text">
+            <h4>Dunder Mifflin Website</h4>
+            <div class="underline"></div>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span class="iconify" data-icon="bx:bxl-sass" data-inline="false"></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/DunderMifflin/index.html"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/DunderMifflin"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="my-skills container-skills">
-        <div class="skill">
-          <div class="icon-container">
-            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-          </div>
-          <h1>Intuitive</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="skill">
-          <div class="icon-container">
-            <i class="fa fa-mobile" aria-hidden="true"></i>
-          </div>
-          <h1>Responsive</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="skill">
-          <div class="icon-container">
-            <i class="fa fa-code" aria-hidden="true"></i>
-          </div>
-          <h1>Dynamic</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container container-small">
-      <div class="skills-heading ">
-        <!-- <h1 class="heading">Skills</h1> -->
-      </div>
-
-      <div class="skills-item-container">
-        <div class="skills-item skills-html">HTML</div>
-
-      </div>
-
-      <div class="skills-item-container">
-        <div class="skills-item skills-css">CSS</div>
-
-      </div>
-
-      <div class="skills-item-container">
-        <div class="skills-item skills-sass">SCSS</div>
-
-      </div>
-
-      <!-- <div class="skills-item-container">
-          <div class="skills-item skills-bootstrap">bootstrap</div>
-      
-          </div> -->
-
-      <div class="skills-item-container">
-        <div class="skills-item skills-js">JavaScript</div>
-
-      </div>
-      <!-- 
-          <div class="skills-item-container">
-          <div class="skills-item skills-react">React</div>
-       
-          </div>
-
-          <div class="skills-item-container">
-           <div class="skills-item skills-json">Json</div> -->
-
-      <!-- </div> -->
-      <div class="skills-item-container">
-        <div class="skills-item skills-java">java</div>
-
-      </div>
-      <div class="skills-item-container">
-        <div class="skills-item skills-mysql">mysql</div>
-
-      </div>
-      <div class="skills-item-container">
-        <div class="skills-item skills-git">git</div>
-
-      </div>
-
-      <!-- <div class="skills-item-container">
-              <div class="skills-item skills-node">node</div>
-          
-              </div> -->
-
-  </section>
-
-
-
-  <!--end of services section-->
-  <!--portfolio section-->
-  <section class="portfolio" id="portfolio">
-    <div class="container container-portfolio">
-      <div class="section-heading">
-        <h1 class="heading">Portfolio</h1>
-        <h6>View some of my recent work</h6>
-      </div>
-      <div class="portfolio-item-container">
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="./images/dunderMifflin.jpg" alt="Fake Dunder Mifflin Website" />
-          </div>
-          <div class="portfolio-description">
-            <h6>HTML, SCSS and JavaScript</h6>
-            <h1>Dunder Mifflin</h1>
-            <p>As a The Office fan, I created a Dunder Mifflin website, it comes with form verification.</p>
-            <a href="https://gabrielamcarvalho.github.io/DunderMifflin/" class="cta" target="_blank">View Details</a>
-          </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-description">
-            <h6>HTML, CSS, JavaScript, API</h6>
-            <h1>Quote Generator</h1>
-            <p>A quote generator application with famous phrases, with option to publish on twitter.</p>
-            <a href="https://gabrielamcarvalho.github.io/QuoteGenerator/" class="cta" target="_blank">View Details</a>
-          </div>
-          <div class="portfolio-img">
-            <img src="./images/QuoteGenerator.jpg" alt="Quote Generator" />
-          </div>
-
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="./images/infiniteDogs.jpg" alt="" />
-          </div>
-          <div class="portfolio-description">
-            <h6>HTML, CSS, JavaScript, API</h6>
-            <h1>Infinite Dogs</h1>
-            <p>An infinite scrolling website with dog pictures. Made using Unsplash API. </p>
-            <a href="https://gabrielamcarvalho.github.io/InfiniteDogs/" class="cta" target="_blank">View Details</a>
-          </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="./images/thegames.jpg" alt="Picture of the games home page website " />
-          </div>
-          <div class="portfolio-description">
-            <h6>HTML, SCSS and JavaScript</h6>
-            <h1>The Games</h1>
-            <p>A website reuniting the games I've done. With memory game...</p>
-            <a href="https://gabrielamcarvalho.github.io/TheGames/" class="cta" target="_blank">View Details</a>
-          </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-description">
-            <h6>HTML, CSS, JavaScript, API</h6>
-            <h1>Quote Generator</h1>
-            <p>A quote generator application with famous phrases, with option to publish on twitter.</p>
-            <a href="https://gabrielamcarvalho.github.io/QuoteGenerator/" class="cta" target="_blank">View Details</a>
-          </div>
-          <div class="portfolio-img">
-            <img src="./images/QuoteGenerator.jpg" alt="Quote Generator" />
-          </div>
-
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="./images/pic2.jpg" alt="" />
-          </div>
-          <div class="portfolio-description">
-            <h6>Web Design</h6>
-            <h1>Product Sketch</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#" class="cta" target="_blank">View Details</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--end of portfolio section-->
-
-  <!--contact section-->
-  <section class="contact" id="contact">
-    <div class="container contact-container">
-      <div class="section-heading">
-        <h1 class="heading">Contact</h1>
-        <h6>Let's Work together</h6>
-      </div>
-      <div class="form-container">
-        <form action="">
-          <label for="name">Name:</label>
-          <br>
-          <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-          <br>
-          <label for="email">Email:</label>
-          <br>
-          <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-          <br>
-          <label for="subject">Subject:</label>
-          <br>
-          <textarea name="subject" id="subject" cols="30" rows="8"></textarea>
-          <br>
-          <div class="submit">
-            <a href="#">Submit </a>
-          </div>
-
-        </form>
-      </div>
-    </div>
-  </section>
-  <!--end of contact section-->
-  <!--footer-->
-  <footer class="footer">
-    <p>&copy;2020 Gabriela Melnik Carvalho</p>
-    <a href="#header"><i class="fas fa fa-chevron-circle-up"></i></a>
-  </footer>
-  <!--end of footer-->
-
-
-</body>
-
+    </section>
+    
+    <footer class="footer">
+        <h3>&copy; Gabriela M. Carvalho 2020</h3>
+    </footer>
+  </body>
 </html>

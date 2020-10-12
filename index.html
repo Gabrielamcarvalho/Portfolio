@@ -6,10 +6,8 @@
     <title>Portfolio</title>
 
     <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="./font-awesome-4.7.0/css/font-awesome.min.css"
-    />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
     <!-- animate.style -->
     <link
@@ -34,78 +32,126 @@
   </head>
 
   <body>
-    <header>
-      <!-- Social media icons -->
-      <div class="social-media">
-        <ul class="social-media__icon">
-          <a
-            href="https://www.facebook.com/gabrielamelnikcarvalho"
-            target="_blank"
-            class="icon-link"
-          >
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://github.com/Gabrielamcarvalho"
-            target="_blank"
-            class="icon-link"
-          >
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/gabriela-carvalho-916313174/"
-            target="_blank"
-            class="icon-link"
-          >
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://codepen.io/gabicarvalho"
-            target="_blank"
-            class="icon-link"
-          >
-            <i class="fa fa-codepen" aria-hidden="true"></i>
-          </a>
-          <a href="mailto:gabrielamcarvalho@gmail.com" target="_blank">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-          </a>
-        </ul>
-      </div>
+    <section class="hero">
+      <header>
+        <!-- Social media icons -->
+        <div class="social-media">
+          <ul class="social-media__icon">
+            <a
+              href="https://www.facebook.com/gabrielamelnikcarvalho"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/Gabrielamcarvalho"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gabriela-carvalho-916313174/"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://codepen.io/gabicarvalho"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-codepen" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:gabrielamcarvalho@gmail.com" target="_blank">
+              <i class="fab fa-envelope-o" aria-hidden="true"></i>
+            </a>
+          </ul>
+        </div>
+      </header>
       <!-- banner -->
+
       <div class="banner">
+
         <div class="banner__title">
           <h1 class="animate__animated animate__bounce">
             Hello, I am <span class="special-text">Gabriela M. Carvalho</span>
           </h1>
           <h2 class="animate__animated animate__backInRight">
-            I <span class="special-text">love</span> Web Development
+            I am a computing student, passionate about web development
           </h2>
 
-          <a class="btn" href="#about">View More</a>
-          <a class="btn" href="#">Download Resume</a>
-        </div>
-        <div class="banner__img-container">
-          <img src="./images/ReadingDoodle.svg" alt="" />
+          <button class="btn">
+            <a  href="#projects">View Projects</a>
+          </button>
+            <button class="btn">
+            <a  href="#">Resume</a>
+          </button>
         </div>
       </div>
-    </header>
-    <section id="about" class="about">
-      <h2>About</h2>
-      <div class="underline"></div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui illo iste
-        sed inventore incidunt ullam? Quos modi, dignissimos in adipisci
-        repudiandae ratione repellendus, excepturi tenetur ipsam tempora velit
-        similique tempore. Animi vitae obcaecati consequatur molestias totam
-        asperiores voluptate eius officiis?
-      </p>
     </section>
 
-    <section class="projects">
-      <h2>Projects</h2>
-      <div class="underline"></div>
+    <section id="skills" class="skills">
+      <h3>Skills</h3>
+      <div class="skills__container">
+<div class="skills-btn" title="javascript">
+  <span></span>
+     <span></span>
+  <span> <i class="fab fa-js"></i></span>
+   <span></span>
+  </div>
+<div class="skills-btn" title="css">
+  <span></span>
+     <span></span>
+  <span><i class="fab fa-css3-alt"></i></span>
+   <span></span>
+  </div>
+<div class="skills-btn" title="html">
+  <span></span>
+     <span></span>
+  <span><i class="fab fa-html5"></i></span>
+   <span></span> 
+  </div><div class="skills-btn" title="github">
+  <span></span>
+     <span></span>
+  <span><i class="fab fa-github-alt"></i></span>
+   <span></span>
+  </div>
+<div class="skills-btn" title="sass">
+  <span></span>
+     <span></span>
+  <span><i class="fab fa-sass"></i></span>
+   <span></span>
+  </div>
+<div class="skills-btn" title="mysql">
+  <span></span>
+     <span></span>
+  <span><i class="fas fa-database"></i></span>
+   <span></span>
+  </div>
+<div class="skills-btn" title="java">
+  <span></span>
+     <span></span>
+  <span><i class="fab fa-java"></i></span>
+   <span></span>
+  </div>
+  </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h3>Projects</h3>
+     
+      <select name="projects categories" id="projects-categories" class="projects-categories"  onchange="changeCategory()">
+  <option value="all" id="all">All</option>
+  <option value="apps" id="apps">Online applications</option>
+  <option value="landing-page" id="landing-pages">Landing pages</option>
+  <option value="games" id="games">Games</option>
+</select>
+</div>
       <div class="projects-container">
-        <article class="projects-item">
+        <article class="projects-item app">
           <img src="./images/QuoteGenerator.jpg" alt="Quote Generator image" />
           <div class="img-text">
             <h4>Quote Generator</h4>
@@ -149,7 +195,7 @@
           </div>
         </article>
 
-        <article class="projects-item">
+        <article class="projects-item app">
           <img src="./images/infiniteDogs.jpg" alt="Infinite Dogs image" />
           <div class="img-text">
             <h4>Infinite Dogs</h4>
@@ -193,8 +239,8 @@
           </div>
         </article>
 
-        <article class="projects-item">
-          <img src="./images/weatherbysimpsons.png" alt="Weather app image" />
+        <article class="projects-item app">
+          <img src="./images/weatherbysimpsons.jpg" alt="Weather app image" />
           <div class="img-text">
             <h4>Weather Forecast with Simpsons GIFS</h4>
             <div class="underline"></div>
@@ -242,10 +288,9 @@
           </div>
         </article>
 
-        
-        <article class="projects-item">
+        <article class="projects-item app">
           <img
-            src="./images/MealFinder.png"
+            src="./images/MealFinder.jpg"
             alt="Dunder Mifflin Website image"
           />
           <div class="img-text">
@@ -289,9 +334,9 @@
             </div>
           </div>
         </article>
-        
-        <article class="projects-item">
-          <img src="./images/quizgame.png" alt="Quiz Game landing page image" />
+
+        <article class="projects-item game">
+          <img src="./images/quizgame.jpg" alt="Quiz Game landing page image" />
           <div class="img-text">
             <h4>Quiz Game</h4>
             <div class="underline"></div>
@@ -339,9 +384,9 @@
           </div>
         </article>
 
-        <article class="projects-item">
+        <article class="projects-item app">
           <img
-            src="./images/pictureinpicture.png"
+            src="./images/pictureinpicture.jpg"
             alt="Picture in Picture image"
           />
           <div class="img-text">
@@ -381,8 +426,8 @@
           </div>
         </article>
 
-        <article class="projects-item">
-          <img src="./images/memory-game.png" alt="Cats memory game image" />
+        <article class="projects-item game">
+          <img src="./images/memory-game.jpg" alt="Cats memory game image" />
           <div class="img-text">
             <h4>Cats - Memory Game</h4>
             <div class="underline"></div>
@@ -420,8 +465,8 @@
           </div>
         </article>
 
-        <article class="projects-item">
-          <img src="./images/breathapp.png" alt="Breathe App image" />
+        <article class="projects-item app">
+          <img src="./images/breathapp.jpg" alt="Breathe App image" />
           <div class="img-text">
             <h4>Breathe App</h4>
             <div class="underline"></div>
@@ -459,9 +504,9 @@
           </div>
         </article>
 
-        <article class="projects-item">
+        <article class="projects-item app">
           <img
-            src="./images/exchangeRateCalculator.png"
+            src="./images/exchangeRateCalculator.jpg"
             alt="Exchange Rate calculator landing page image"
           />
           <div class="img-text">
@@ -505,9 +550,9 @@
             </div>
           </div>
         </article>
-        <article class="projects-item">
+        <article class="projects-item app">
           <img
-            src="./images/joketeller.png"
+            src="./images/joketeller.jpg"
             alt="Joke teller landing page image"
           />
           <div class="img-text">
@@ -551,7 +596,8 @@
             </div>
           </div>
         </article>
-        <!-- <article class="projects-item">
+
+        <article class="projects-item landingPage">
           <img src="./images/dunderMifflin.jpg" alt="Dunder Mifflin Website image" />
           <div class="img-text">
             <h4>Dunder Mifflin Website</h4>
@@ -584,12 +630,9 @@
               >
             </div>
           </div>
-        </article> -->
-        <article class="projects-item">
-          <img
-            src="./images/skerries.png"
-            alt="Dunder Mifflin Website image"
-          />
+        </article>
+        <article class="projects-item landingPage">
+          <img src="./images/skerries.jpg" alt="skerries website" />
           <div class="img-text">
             <h4>Skerries Landing Page</h4>
             <div class="underline"></div>
@@ -632,11 +675,179 @@
           </div>
         </article>
 
+<article class="projects-item game">
+          <img src="./images/hangman.jpg" alt="Hangman Game" />
+          <div class="img-text">
+            <h4>Hangman - TV Shows</h4>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+             
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/Hangman/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/Hangman"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
+ <article class="projects-item app">
+          <img
+            src="./images/lyricsSearch.jpg"
+            alt="Lyrics Search App"
+          />
+          <div class="img-text">
+            <h4>Lyrics Search</h4>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="carbon:api-1"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://thelyricssearch.netlify.app/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/LyricsSearch"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
+<article class="projects-item app">
+          <img
+            src="./images/MusicPlayerCalm.jpg"
+            alt="Music Player"
+          />
+          <div class="img-text">
+            <h4>Relaxing Music Player</h4>
+            <div class="iconify-container">
+              <span
+                class="iconify"
+                data-icon="icomoon-free:html-five"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="bx:bxl-css3"
+                data-inline="false"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:javascript"
+                data-inline="false"
+              ></span>
+            </div>
+            <div class="btn-container">
+              <a
+                class="btn-small"
+                href="https://gabrielamcarvalho.github.io/RelaxingMusicPlayer/"
+                target="_blank"
+                >View Live</a
+              >
+              <a
+                class="btn-small"
+                href="https://github.com/Gabrielamcarvalho/RelaxingMusicPlayer"
+                target="_blank"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </article>
+
       </div>
     </section>
 
     <footer class="footer">
-      <h3>&copy; Gabriela M. Carvalho 2020</h3>
+      <h5>&copy; Gabriela M. Carvalho 2020</h5>
+      <div class="contact">
+       
+          <!-- Social media icons -->
+        <div class="social-media">
+          <ul class="social-media__icon">
+            <a
+              href="https://www.facebook.com/gabrielamelnikcarvalho"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/Gabrielamcarvalho"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gabriela-carvalho-916313174/"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://codepen.io/gabicarvalho"
+              target="_blank"
+              class="icon-link"
+            >
+              <i class="fab fa-codepen" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:gabrielamcarvalho@gmail.com" target="_blank">
+              <i class="fab fa-envelope-o" aria-hidden="true"></i>
+            </a>
+          </ul>
+        </div>
+      
+      </div>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>

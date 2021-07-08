@@ -61,7 +61,7 @@
           Hello, I am <span class="special-text">Gabriela M. Carvalho</span>
         </h1>
         <h2 class="animate__animated animate__backInRight">
-          I am a computing graduated, passionate about web development
+          I am a software engineer, passionate about web development
         </h2>
 
         <button class="btn">
@@ -81,6 +81,12 @@
         <span></span>
         <span></span>
         <span> <i class="fab fa-js"></i></span>
+        <span></span>
+      </div>
+      <div class="skills-btn" title="react">
+        <span></span>
+        <span></span>
+        <span> <i class="fab fa-react"></i></span>
         <span></span>
       </div>
       <div class="skills-btn" title="css">
@@ -131,105 +137,55 @@
   <section class="projects" id="projects">
     <h3>Projects</h3>
 
-    <select name="projects categories" id="projects-categories" class="projects-categories" onchange="changeCategory()">
+    <!-- <select name="projects categories" id="projects-categories" class="projects-categories" onchange="changeCategory()">
       <option value="all" id="all">All</option>
       <option value="apps" id="apps">Online applications</option>
       <option value="landing-page" id="landing-pages">Landing pages</option>
       <option value="games" id="games">Games</option>
-    </select>
+    </select> -->
     </div>
     <div class="projects-container">
-      <article class="projects-item app">
-        <img src="./images/QuoteGenerator.jpg" alt="Quote Generator image" />
-        <div class="img-text">
-          <h4>Quote Generator</h4>
+      <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="Forkify App" controls  muted >
+            <source  src="./videos/forkify.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="description">
+          <h4>Forkify</h4>
           <div class="underline"></div>
           <div class="iconify-container">
             <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
+             <span class="iconify" data-icon="bx:bxl-sass" data-inline="false"></span>
             <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
             <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
           </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/QuoteGenerator/" target="_blank">View
+          <p class="description--text">Forkify is a search for recipes application. It allows the user to search for more than 1000 recipes, save the best ones as favorites, create our own recipes and to increase or decrease the servings. The application was coded using HTML, SASS and Modern JavaScript. The code was designed using MVC Architecture, it was divided into configuration, controller, helpers, models and the views. It was also used some dependencies gotten from NPM (fractional, node and regenerator runtime). To make it Forkify possible to be accessed in any version of any web browser, it was used Parcel to build it and push it to GitHub. </p>
+           <div class="btn-container">
+            <a class="btn-small" href="https://forkify-recipes-search.netlify.app/" target="_blank">View
               Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/QuoteGenerator" target="_blank">View
+            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/forkify" target="_blank">View
               Code</a>
           </div>
         </div>
       </article>
 
-      <article class="projects-item app">
-        <img src="./images/infiniteDogs.jpg" alt="Infinite Dogs image" />
-        <div class="img-text">
-          <h4>Infinite Dogs</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/InfiniteDogs/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/InfiniteDogs" target="_blank">View Code</a>
-          </div>
+       <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="Bankist App" controls  muted >
+            <source  src="./videos/Bankist.mp4" type="video/mp4">
+          </video>
         </div>
-      </article>
-
-      <article class="projects-item landingPage">
-        <img src="./images/burgerplace.jpg" alt="The burger place home image" />
-        <div class="img-text">
-          <h4>The Burger Place</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-sass" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:mysql" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:php" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://knuth.griffith.ie/~s3028101/theburgerplace/" target="_blank">View
-              Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/TheBurgerPlace" target="_blank">View
-              Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="projects-item app">
-        <img src="./images/weatherbysimpsons.jpg" alt="Weather app image" />
-        <div class="img-text">
-          <h4>Weather Forecast with Simpsons GIFS</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-            <span class="iconify" data-icon="file-icons:eslint" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/WheatherBySimpsons/" target="_blank">View
-              Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/WheatherBySimpsons" target="_blank">View
-              Code</a>
-          </div>
-        </div>
-      </article>
-
-        <article class="projects-item app">
-        <img src="./images/bankist.jpg" alt="Bankist application image" />
-        <div class="img-text">
+        <div class="description">
           <h4>Bankist</h4>
           <div class="underline"></div>
           <div class="iconify-container">
             <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-             <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
+                <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
             <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
           </div>
-          <div class="btn-container">
+          <p class="description--text">Bankist is a simple bank application where users can ask for a loan, transfer and delete the account. It was create with the objective of practicing arrays in JavaScript. It is a front-end application, there is four users registered. They are: rg, password 1111; mg, password: 2222; jt, password: 3333; cb, password: 4444 </p>
+           <div class="btn-container">
             <a class="btn-small" href="https://gabrielamcarvalho.github.io/Bankist/" target="_blank">View
               Live</a>
             <a class="btn-small" href="https://github.com/Gabrielamcarvalho/Bankist" target="_blank">View
@@ -238,255 +194,132 @@
         </div>
       </article>
 
-
-      <article class="projects-item app">
-        <img src="./images/MealFinder.jpg" alt="Dunder Mifflin Website image" />
-        <div class="img-text">
-          <h4>Meal Finder</h4>
+       <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="The Burger place landing page" controls  muted >
+            <source  src="./videos/Burger Place.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="description">
+          <h4>The Burger Place</h4>
           <div class="underline"></div>
           <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+          <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+            <span class="iconify" data-icon="bx:bxl-sass" data-inline="false"></span>
             <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="file-icons:tailwind" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
+            <span class="iconify" data-icon="cib:mysql" data-inline="false"></span>
+            <span class="iconify" data-icon="cib:php" data-inline="false"></span>
           </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://themealfinder.netlify.app/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/MealFinder" target="_blank">View Code</a>
+          <p class="description--text">The Burger Place is a fictional restaurant which sells burgers. It is an responsive website, design created by me. The website's menu is filled from information from the database, created in MySQL and retrieved with PHP.  </p>
+           <div class="btn-container">
+           <a class="btn-small" href="https://knuth.griffith.ie/~s3028101/theburgerplace/" target="_blank">View
+              Live</a>
+            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/TheBurgerPlace" target="_blank">View
+              Code</a>
           </div>
         </div>
       </article>
 
-      <article class="projects-item game">
-        <img src="./images/quizgame.jpg" alt="Quiz Game landing page image" />
-        <div class="img-text">
+       <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="Mapty app" controls  muted >
+            <source  src="./videos/mapty.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="description">
+          <h4>Mapty</h4>
+          <div class="underline"></div>
+          <div class="iconify-container">
+          <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+             <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
+            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
+           <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
+          </div>
+          <p class="description--text">Mapty is an application created to store my running and cycling in the city. The map is from the leaflet library. We can save in the map the location where we run/ cycle and the km and time, the information is stored in local storage.  </p>
+           <div class="btn-container">
+           <a class="btn-small" href="https://gabrielamcarvalho.github.io/Mapty/" target="_blank">View
+              Live</a>
+            <a class="btn-small" href="hhttps://github.com/Gabrielamcarvalho/Mapty" target="_blank">View
+              Code</a>
+          </div>
+        </div>
+      </article>
+
+       <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="Dunder Mifflin website" controls  muted >
+            <source  src="./videos/Dunder Mifflin.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="description">
+          <h4>Dunder Mifflin</h4>
+          <div class="underline"></div>
+          <div class="iconify-container">
+          <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+             <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
+            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
+          </div>
+          <p class="description--text">As a big fan of The Office TV show, I imaged how the website of the company would be if existed in 2021.  </p>
+           <div class="btn-container">
+           <a class="btn-small" href="https://gabrielamcarvalho.github.io/DunderMifflin/index.html" target="_blank">View
+              Live</a>
+            <a class="btn-small" href="hhttps://github.com/Gabrielamcarvalho/DunderMifflin" target="_blank">View
+              Code</a>
+          </div>
+        </div>
+      </article>
+
+       <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="Quiz Game" controls  muted >
+            <source  src="./videos/Quiz.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="description">
           <h4>Quiz Game</h4>
           <div class="underline"></div>
           <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
+          <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+             <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
             <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-            <span class="iconify" data-icon="file-icons:eslint" data-inline="false"></span>
+              <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
           </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/QuizGame/" target="_blank">View Live</a>
+          <p class="description--text">Quiz game with 10 categories to play with friends! The questions are retrieved from the Open Trivia DB API. The highest scores are stored in the local storage. </p>
+           <div class="btn-container">
+                <a class="btn-small" href="https://gabrielamcarvalho.github.io/QuizGame/" target="_blank">View Live</a>
             <a class="btn-small" href="https://github.com/Gabrielamcarvalho/QuizGame" target="_blank">View Code</a>
           </div>
         </div>
       </article>
 
-      <!-- <article class="projects-item app">
-        <img src="./images/pictureinpicture.jpg" alt="Picture in Picture image" />
-        <div class="img-text">
-          <h4>Picture in Picture</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/PictureInPicture/" target="_blank">View
-              Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/PictureInPicture" target="_blank">View
-              Code</a>
-          </div>
+       <article class="projects--item">
+        <div class="video--container">
+          <video class="video"  title="Wheather By Simpsons" controls  muted >
+            <source  src="./videos/The Weather by Simpsons.mp4" type="video/mp4">
+          </video>
         </div>
-      </article> -->
-
-      <article class="projects-item game">
-        <img src="./images/memory-game.jpg" alt="Cats memory game image" />
-        <div class="img-text">
-          <h4>Cats - Memory Game</h4>
+        <div class="description">
+          <h4>Weather By Simpsons</h4>
           <div class="underline"></div>
           <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+          <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
+             <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
             <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
             <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
+            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
           </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/Cats-MemoryGame/" target="_blank">View
+          <p class="description--text">A fun way to check the weather, each forecast gives a different fun GIF from The Simpsons characters. The weather forecast comes from the Open Weather API. </p>
+           <div class="btn-container">
+                 <a class="btn-small" href="https://gabrielamcarvalho.github.io/WheatherBySimpsons/" target="_blank">View
               Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/Cats-MemoryGame" target="_blank">View
+            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/WheatherBySimpsons" target="_blank">View
               Code</a>
           </div>
         </div>
       </article>
 
-      <article class="projects-item app">
-        <img src="./images/breathapp.jpg" alt="Breathe App image" />
-        <div class="img-text">
-          <h4>Breathe App</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/BreatheApp/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/BreatheApp" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article>
 
-      <!-- <article class="projects-item app">
-        <img src="./images/exchangeRateCalculator.jpg" alt="Exchange Rate calculator landing page image" />
-        <div class="img-text">
-          <h4>Exchange Rate Calculator</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/ExchangeRate/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/ExchangeRate" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article> -->
-
-      <!-- <article class="projects-item app">
-        <img src="./images/joketeller.jpg" alt="Joke teller landing page image" />
-        <div class="img-text">
-          <h4>Joke Teller App</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/jokeTeller/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/jokeTeller" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article> -->
-
-      <article class="projects-item landingPage">
-        <img src="./images/dunderMifflin.jpg" alt="Dunder Mifflin Website image" />
-        <div class="img-text">
-          <h4>Dunder Mifflin Website</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-sass" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/DunderMifflin/index.html"
-              target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/DunderMifflin" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article>
-      <article class="projects-item landingPage">
-        <img src="./images/skerries.jpg" alt="skerries website" />
-        <div class="img-text">
-          <h4>Skerries Landing Page</h4>
-          <div class="underline"></div>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="file-icons:tailwind" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/Skerries/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/Skerries" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="projects-item game">
-        <img src="./images/hangman.jpg" alt="Hangman Game" />
-        <div class="img-text">
-          <h4>Hangman - TV Shows</h4>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/Hangman/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/Hangman" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="projects-item app">
-        <img src="./images/lyricsSearch.jpg" alt="Lyrics Search App" />
-        <div class="img-text">
-          <h4>Lyrics Search</h4>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-            <span class="iconify" data-icon="carbon:api-1" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://thelyricssearch.netlify.app/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/LyricsSearch" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="projects-item app">
-        <img src="./images/MusicPlayerCalm.jpg" alt="Music Player" />
-        <div class="img-text">
-          <h4>Relaxing Music Player</h4>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/RelaxingMusicPlayer/" target="_blank">View
-              Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/RelaxingMusicPlayer" target="_blank">View
-              Code</a>
-          </div>
-        </div>
-      </article>
-      <article class="projects-item landingPage">
-        <img src="./images/fashionblog.jpg" alt="Fashion Blog landing page" />
-        <div class="img-text">
-          <h4>Fashion Blog</h4>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/fashionBlog/" target="_blank">View Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/fashionBlog" target="_blank">View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- <article class="projects-item game">
-        <img src="./images/speedtyping.jpg" alt="Speed Typing game img" />
-        <div class="img-text">
-          <h4>Speed Typing Game</h4>
-          <div class="iconify-container">
-            <span class="iconify" data-icon="icomoon-free:html-five" data-inline="false"></span>
-            <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
-            <span class="iconify" data-icon="cib:javascript" data-inline="false"></span>
-          </div>
-          <div class="btn-container">
-            <a class="btn-small" href="https://gabrielamcarvalho.github.io/SpeedTypingGame/" target="_blank">View
-              Live</a>
-            <a class="btn-small" href="https://github.com/Gabrielamcarvalho/SpeedTypingGame" target="_blank">View
-              Code</a>
-          </div>
-        </div>
-      </article> -->
-
+      <a class="projects--extra" href="https://github.com/Gabrielamcarvalho/" target="_blank">Check my GitHub and see More of my projects!</a>
     </div>
   </section>
 

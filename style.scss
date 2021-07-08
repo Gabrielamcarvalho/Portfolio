@@ -151,9 +151,10 @@ header {
   display: flex;
   align-items: center;
   height: calc(100vh - 35px);
-  background: url(./images/ideaBW.svg) no-repeat;
-  background-size: contain;
-  background-position: right bottom;
+  background: url(./images/back.svg) no-repeat;
+  background-size: 600px 600px;
+  background-position: right;
+
   text-align: center;
 
   &__title {
@@ -170,6 +171,8 @@ header {
     align-items: flex-start;
     justify-content: center;
     margin-top: 15em;
+    background-size: contain;
+    background-position: bottom;
   }
 }
 

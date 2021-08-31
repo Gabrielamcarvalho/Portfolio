@@ -425,6 +425,61 @@ header .social-media i:hover, header .social-media i:focus {
   border-radius: 2px;
 }
 
+.projects--item .image--container {
+  position: relative;
+  width: 100%;
+}
+
+.projects--item .image--container img {
+  width: 100%;
+}
+
+.projects--item .image--container .prev-btn,
+.projects--item .image--container .next-btn {
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5rem;
+  color: #bd6093;
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
+.projects--item .image--container .prev-btn:hover, .projects--item .image--container .prev-btn:focus,
+.projects--item .image--container .next-btn:hover,
+.projects--item .image--container .next-btn:focus {
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
+}
+
+@media screen and (min-width: 800px) {
+  .projects--item .image--container .prev-btn,
+  .projects--item .image--container .next-btn {
+    font-size: 3rem;
+  }
+}
+
+.projects--item .image--container .next-btn {
+  top: 50%;
+  right: -15px;
+}
+
+@media screen and (min-width: 800px) {
+  .projects--item .image--container .next-btn {
+    right: -25px;
+  }
+}
+
+.projects--item .image--container .prev-btn {
+  top: 50%;
+  left: -15px;
+}
+
+@media screen and (min-width: 800px) {
+  .projects--item .image--container .prev-btn {
+    left: -25px;
+  }
+}
+
 .projects--item .iconify {
   font-size: 2rem;
   color: #0b0c0b;

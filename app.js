@@ -17,6 +17,12 @@ const landingPages = [
     liveLink: 'https://gabrielamcarvalho.github.io/DunderMifflin/index.html',
     code: 'https://github.com/Gabrielamcarvalho/DunderMifflin',
   },
+  {
+    name: 'Dupovenik Zoo',
+    img: './images/dupovenik.jpg',
+    liveLink: 'https://dupovenikzoo.netlify.app/',
+    code: 'https://github.com/Gabrielamcarvalho/dupovenikzoo',
+  },
 ];
 
 const prevBtn = document.querySelector('.prev-btn');
